@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Knox Container</string>
+    <string name="enterprise_device_admin">Android Unified Container</string>
+    <string name="enterprise_device_admin_description">DeviceAdmin class</string>
+    <string name="activate_admin">Activate Admin</string>
+    <string name="deactivate_admin">Deactivate Admin</string>
+    <string name="activate_license">Activate license</string>
+    <string name="deactivate_license">Deactivate license</string>
+    <string name="android_po">Create Managed Profile</string>
+    <string name="toggle_camera">Toggle Container Camera</string>
+
+    <!-- UI elements -->
+    <string name="license_progress">Activating license...</string>
+    <string name="deactivate_license_progress">Deactivating license...</string>
+    <string name="permissions_failed">Failed to grant runtime permissions %1$s to package</string>
+    <string name="permissions_granted">Granted runtime permissions %1$s to package</string>
+    <string name="admin_cancelled">Device admin activation cancelled</string>
+    <string name="admin_activated">Device administrator activated</string>
+    <string name="activating_admin">Activating device administrator...</string>
+    <string name="deactivating_admin">Deactivating device administrator... </string>
+    <string name="camera_state">Set camera enabled to: %1$b</string>
+
+    <!-- License activation messages -->
+    <string name="no_intent">License activation intent is not available</string>
+    <string name="no_intent_action">License activation intent action is not available</string>
+    <string name="klm_activated_succesfully">KLM activated successfully</string>
+
+    <!-- KLM License Error Codes -->
+    <string name="err_klm_internal">KLM: Internal error</string>
+    <string name="err_klm_internal_server">KLM: Internal server error</string>
+    <string name="err_klm_licence_invalid_license">KLM: Invalid license</string>
+    <string name="err_klm_invalid_package_name">KLM: Invalid package name</string>
+    <string name="err_klm_licence_terminated">KLM: License terminated</string>
+    <string name="err_klm_network_disconnected">KLM: Network disconnected</string>
+    <string name="err_klm_network_general">KLM: Network general error</string>
+    <string name="err_klm_unknown">KLM: Error unknown</string>
+    <string name="err_klm_code_unknown">KLM: Error code unknown %1$s, status %2$s</string>
+    <string name="err_klm_not_current_date">KLM: Not current date</string>
+    <string name="err_klm_sig_mismatch">KLM: Caller package signature mismatch</string>
+    <string name="err_klm_ver_code_mismatch">KLM: Caller package version code mismatch</string>
+    <string name="err_klm_null_params">KLM: NULL params</string>
+    <string name="err_klm_user_disagrees_license_agreement">KLM: User disagrees EULA</string>
+
+    <!-- API level -->
+    <string name="api_level_message">This device does not meet the minimum requirements to run. API level %1$d detected. Requires level %2$d.</string>
+    <string name="api_level_notice">App Requirement</string>
+    <string name="provisioning_not_supported">Device provisioning is not enabled</string>
+</resources>
